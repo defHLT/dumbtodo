@@ -1,0 +1,159 @@
+div.center {
+  width:80%;
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+div.block{
+  overflow:hidden;
+}
+
+div.row{
+  display:table-row;
+  background: white;
+  border: 1px solid gray;
+  height: 40px;
+  width: 100%;
+}
+div.row:hover{
+  background: #FCFED5;
+}
+
+div.row.header {
+}
+
+
+/*div.block .input{*/
+  /*float:right;*/
+  /*display:block;*/
+/*}*/
+
+input.add-task {
+  margin: 5px;
+  display: table-cell;
+  border: 1px solid green;
+  border-radius: 10px 10px 10px 10px;
+  background: #71A88A;
+  color: #C7CBC9;
+  /*height:48px;*/
+  /*line-height:48px;*/
+}
+
+input#task{
+  color: green;
+  display:table-cell;
+  margin: 0;
+  border: 0;
+  text-align: right;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+div.project, div.proj-title, div.new-task  {
+  display: table;
+  width: 100%;
+  /*max-width: 800px;*/
+  border-collapse: collapse;
+}
+
+
+form.header {
+}
+
+div.proj-title{
+  font: 2em Helvetica;
+  color: white;
+  background: #406AAA;
+  text-align: center;
+  display: table-cell;
+}
+
+input.delete-proj-btn {
+  display: table-cell;
+}
+
+
+.grad {
+  background: linear-gradient(#C6C7AF, #CA830D); [> Standard syntax <]
+}
+
+body {
+  height: 100%;
+}
+
+div.cell {
+  display:table-cell;
+  /*background:white;*/
+  overflow: hidden;
+  border: 1px solid #e8eceb;
+}
+
+div.row:hover{
+  background: #FCFED5;
+}
+
+div.row.header {
+}
+
+
+/*div.block .input{*/
+  /*float:right;*/
+  /*display:block;*/
+/*}*/
+
+input.add-task {
+}
+
+input.checkbox{
+}
+
+span.task {
+  text-align: left;
+  text-overflow: ellipsis;
+  color: #bababa;
+  font: condensed;
+  font-weight: bold;
+}
+
+input.delete-btn {
+  display:table-cell;
+}
+
+
+.addtaskform {
+  display: table-row;
+}
+
+div.right {
+  width: 24px;
+}
+
+div.cell {
+  vertical-align: middle;
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+input[type=checkbox]:checked + span {
+  text-decoration: line-through;
+  color: #d0d0d0;
+}
+
+input[type=text] {
+  width: 100%;
+}
+
+div.table {
+  background: white;
+  display: table;
+  width: 600px;
+}
+
+
+

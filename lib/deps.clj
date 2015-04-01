@@ -1,0 +1,1 @@
+{:dependencies {org.clojure/clojure {:version "1.6.0"}, org.clojure/clojure-contrib {:version "1.2.0"}, compojure {:version "1.3.2"}, hiccup {:version "1.0.5"}, ring/ring {:version "1.3.2"}}, :dev-dependencies {}, :ext-dependencies {}}
