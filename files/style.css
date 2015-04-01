@@ -24,11 +24,6 @@ div.row.header {
 }
 
 
-/*div.block .input{*/
-  /*float:right;*/
-  /*display:block;*/
-/*}*/
-
 input.add-task {
   margin: 5px;
   display: table-cell;
@@ -36,8 +31,6 @@ input.add-task {
   border-radius: 10px 10px 10px 10px;
   background: #71A88A;
   color: #C7CBC9;
-  /*height:48px;*/
-  /*line-height:48px;*/
 }
 
 input#task{
@@ -57,7 +50,6 @@ input#task{
 div.project, div.proj-title, div.new-task  {
   display: table;
   width: 100%;
-  /*max-width: 800px;*/
   border-collapse: collapse;
 }
 
@@ -88,28 +80,12 @@ body {
 
 div.cell {
   display:table-cell;
-  /*background:white;*/
   overflow: hidden;
   border: 1px solid #e8eceb;
 }
 
 div.row:hover{
   background: #FCFED5;
-}
-
-div.row.header {
-}
-
-
-/*div.block .input{*/
-  /*float:right;*/
-  /*display:block;*/
-/*}*/
-
-input.add-task {
-}
-
-input.checkbox{
 }
 
 span.task {
@@ -154,6 +130,4 @@ div.table {
   display: table;
   width: 600px;
 }
-
-
 
