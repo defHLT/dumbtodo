@@ -31,7 +31,7 @@
      [:div {:class :cell}
       [:input {:class :checkbox :type :checkbox}]
       [:span {:class :task} task]]
-     [:div {:class "cell right"}
+     [:div {:class [:cell :right]}
       (delete-icon :delete-btn)]]))
 
 (defn render-project [proj tasks]
