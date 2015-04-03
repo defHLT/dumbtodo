@@ -131,3 +131,9 @@ div.table {
   width: 600px;
 }
 
+
+.add-todo-list {
+  display: flex;
+  margin: 0 auto;
+}
+
